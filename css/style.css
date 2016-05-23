@@ -1,0 +1,280 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+body{
+	/*background:url(http://cdn.jaguda.com/wp-content/uploads/2015/03/wpid-omawumi.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+  	
+   
+}
+
+
+
+#content{
+	width: 100%;
+	/*overflow: hidden;*/
+}
+
+.logo{
+	margin-left: 4%;
+	font-family:'Ruthie', cursive;
+	font-size: 9em;
+}
+
+.logo a{
+	color:#FF1493;
+}
+
+#main_image{
+	width: 100%;
+	float: left;
+	margin-top: -13%;
+}
+
+#album p{
+	font-size: 1.2em;
+}
+
+#title{
+	width: 100%;
+	float: left;
+	margin-top: -30%;
+	z-index: 9999;
+	color: 	#FF3E96;
+	opacity: .4;
+	-webkit-transition: opacity .20s ease-in-out;
+	-moz-transition: opacity .20s ease-in-out;
+	transition: opacity .20s ease-in-out;
+}
+
+
+
+h1{
+	text-align: center;
+	font-size: 18em;
+}
+
+h2{
+	color:#FF1493;
+}
+p{
+	color: #696969;
+	text-align: justify;
+	
+}
+#content .container-fluid{
+	padding: 0 !important;
+}
+
+#about_content{
+	
+	background-image:url('../image/lady_bg.jpg');
+	
+}
+
+#about{
+	margin-top: 3%;
+
+}
+
+#about img{
+	-webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+}
+
+#about:hover img {
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+}
+.pic img{
+	padding: 2px;
+}
+.bio{
+	padding-left: 7%;
+	margin-top: 0;
+	margin-bottom: 5%;
+}
+
+.bio h2{
+	margin-top: 0;
+}
+
+.header {
+        color: #FF1493;
+        font-size: 27px;
+        padding: 10px;
+    }
+
+ .bigicon {
+        font-size: 35px;
+        color: 	#FF1493;
+    }
+  .btn-primary{
+  	background-color:#FF1493;
+  	border-color: #FF1493; 
+  }
+
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li{
+	margin: 0;
+	padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+    margin-top: 3%;
+}
+.socialbtns p{
+	text-align: center;
+	color: #fff;
+}
+
+.socialbtns .fa {
+	width: 40px;
+    height: 28px;
+	color: #FFF;
+	background-color: #000;
+	padding-top: 12px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 20px;
+	transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+}
+
+.socialbtns .fa:hover {
+	transform: scale(1.2,1.2);
+	-moz-transform: scale(1.2,1.2);
+	-webkit-transform: scale(1.2,1.2);
+	-o-transform: scale(1.2,1.2);
+	transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+}
+
+#contact{
+	margin-top: 5%;
+}
+#contact p{
+	text-align: center;
+	margin-top: 10%;
+}
+
+footer{
+	background-color: #000;
+	float: left;
+	width: 100%;
+	height: 170px;
+
+}
+
+.gallery{
+	margin-top: 2%;
+}
+.gallery img{
+	padding: 2px;
+}
+
+.video{
+	padding:2%;
+}
+
+iframe{
+	padding: 3px;
+}
+
+@media only screen and (min-width: 20em){
+	h1{
+		text-align: center;
+		font-size: 4em;
+	}
+
+	#about h2{
+		margin-top: 5%;
+	}
+	#contact h2{
+		margin-left: 4%;
+	}
+
+	#text {
+		display: block;
+	}
+
+	#text p{
+		padding: 5%;
+		text-align: justify;
+
+	
+
+	}
+
+	.fa-user, .fa-user, .fa-envelope-o, .fa-phone-square, .fa-pencil-square-o{
+		font-size: 2em;
+	}
+
+
+}
+
+@media only screen and (min-width: 30em){
+	
+	h1{
+		text-align: center;
+		font-size: 6em;
+	}
+.fa-user, .fa-user, .fa-envelope-o, .fa-phone-square, .fa-pencil-square-o{
+		font-size: 2.5em;
+	}
+}
+
+@media only screen and (min-width: 48em){
+	
+	h1{
+		text-align: center;
+		font-size: 9em;
+	}
+	#text {
+		display: none;
+	}
+	.fa-user, .fa-user, .fa-envelope-o, .fa-phone-square, .fa-pencil-square-o{
+		font-size: 3em;
+	}
+}
+@media only screen and (min-width: 64.063em){
+	
+	h1{
+		text-align: center;
+		font-size: 18em;
+	}
+	#contact h2{
+		margin-left: 1%;
+	}
+
+	#text {
+		display: none;
+	}
+	.fa-user, .fa-user, .fa-envelope-o, .fa-phone-square, .fa-pencil-square-o{
+		font-size: 3em;
+	}
+}
